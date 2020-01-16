@@ -1,0 +1,15 @@
+.topHeader{
+  display: inline-block;
+  background: blue;
+  padding: 14px;
+  width: 100%;
+}
+
+.topHeader svg{
+  width: 30px !important;
+  height: 30px;
+}
+
+.topHeader path{
+  fill: #eabf00;
+}
