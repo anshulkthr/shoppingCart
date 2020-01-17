@@ -1,14 +1,13 @@
 {
-  "main.css": "/shoppingCart/static/css/main.09dcbd95.chunk.css",
-  "main.js": "/shoppingCart/static/js/main.a8196b4b.chunk.js",
-  "main.js.map": "/shoppingCart/static/js/main.a8196b4b.chunk.js.map",
-  "static/js/1.509f8264.chunk.js": "/shoppingCart/static/js/1.509f8264.chunk.js",
-  "static/js/1.509f8264.chunk.js.map": "/shoppingCart/static/js/1.509f8264.chunk.js.map",
+  "main.css": "/shoppingCart/static/css/main.8a18ed07.chunk.css",
+  "main.js": "/shoppingCart/static/js/main.178c6e86.chunk.js",
+  "main.js.map": "/shoppingCart/static/js/main.178c6e86.chunk.js.map",
+  "static/js/1.a8287810.chunk.js": "/shoppingCart/static/js/1.a8287810.chunk.js",
+  "static/js/1.a8287810.chunk.js.map": "/shoppingCart/static/js/1.a8287810.chunk.js.map",
   "runtime~main.js": "/shoppingCart/static/js/runtime~main.35890cc8.js",
   "runtime~main.js.map": "/shoppingCart/static/js/runtime~main.35890cc8.js.map",
-  "static/media/style.scss": "/shoppingCart/static/media/instagram-icon.7d65a2ea.png",
-  "static/css/main.09dcbd95.chunk.css.map": "/shoppingCart/static/css/main.09dcbd95.chunk.css.map",
+  "static/css/main.8a18ed07.chunk.css.map": "/shoppingCart/static/css/main.8a18ed07.chunk.css.map",
   "index.html": "/shoppingCart/index.html",
-  "precache-manifest.5408bd8d401fcba16daf32dd4adb0b5e.js": "/shoppingCart/precache-manifest.5408bd8d401fcba16daf32dd4adb0b5e.js",
+  "precache-manifest.9489dfe6f9274800f972480390f07232.js": "/shoppingCart/precache-manifest.9489dfe6f9274800f972480390f07232.js",
   "service-worker.js": "/shoppingCart/service-worker.js"
 }
