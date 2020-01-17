@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/shoppingCart/static/js/runtime~main.35890cc8.js"
   },
   {
-    "revision": "e1ac95fc2fe2895c75d8",
-    "url": "/shoppingCart/static/js/main.e1ac95fc.chunk.js"
+    "revision": "a8196b4b949e3c133580",
+    "url": "/shoppingCart/static/js/main.a8196b4b.chunk.js"
   },
   {
     "revision": "509f82646bf351c72131",
     "url": "/shoppingCart/static/js/1.509f8264.chunk.js"
   },
   {
-    "revision": "e1ac95fc2fe2895c75d8",
+    "revision": "a8196b4b949e3c133580",
     "url": "/shoppingCart/static/css/main.09dcbd95.chunk.css"
   },
   {
-    "revision": "b6974e1a16bf523ea6f47fda6c9c9b29",
+    "revision": "552888b113273052c4ea2759ebcc3b85",
     "url": "/shoppingCart/index.html"
   }
 ];

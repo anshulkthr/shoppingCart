@@ -1,7 +1,7 @@
 {
   "main.css": "/shoppingCart/static/css/main.09dcbd95.chunk.css",
-  "main.js": "/shoppingCart/static/js/main.e1ac95fc.chunk.js",
-  "main.js.map": "/shoppingCart/static/js/main.e1ac95fc.chunk.js.map",
+  "main.js": "/shoppingCart/static/js/main.a8196b4b.chunk.js",
+  "main.js.map": "/shoppingCart/static/js/main.a8196b4b.chunk.js.map",
   "static/js/1.509f8264.chunk.js": "/shoppingCart/static/js/1.509f8264.chunk.js",
   "static/js/1.509f8264.chunk.js.map": "/shoppingCart/static/js/1.509f8264.chunk.js.map",
   "runtime~main.js": "/shoppingCart/static/js/runtime~main.35890cc8.js",
@@ -9,6 +9,6 @@
   "static/media/style.scss": "/shoppingCart/static/media/instagram-icon.7d65a2ea.png",
   "static/css/main.09dcbd95.chunk.css.map": "/shoppingCart/static/css/main.09dcbd95.chunk.css.map",
   "index.html": "/shoppingCart/index.html",
-  "precache-manifest.7a3410fb8fbc48b8d6d4d289f34b6064.js": "/shoppingCart/precache-manifest.7a3410fb8fbc48b8d6d4d289f34b6064.js",
+  "precache-manifest.5408bd8d401fcba16daf32dd4adb0b5e.js": "/shoppingCart/precache-manifest.5408bd8d401fcba16daf32dd4adb0b5e.js",
   "service-worker.js": "/shoppingCart/service-worker.js"
 }
