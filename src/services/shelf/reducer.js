@@ -9,7 +9,8 @@ export default function(state = initialState, action) {
     case FETCH_PRODUCTS:
       return {
         ...state,
-        products: action.payload
+        products: action.payload,
+
       };
     default:
       return state;

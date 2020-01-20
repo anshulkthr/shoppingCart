@@ -6,7 +6,6 @@ import { loadCart, removeProduct, changeProductQuantity } from '../../services/c
 import { updateCart } from '../../services/total/actions';
 import CartProduct from './CartProduct';
 import { formatPrice } from '../../services/util';
-
 import './style.scss';
 
 class FloatCart extends Component {
@@ -123,6 +122,7 @@ class FloatCart extends Component {
     }
 
     return (
+
       <div className={classes.join(' ')}>
         {/* If cart open, show close (x) button */}
         {this.state.isOpen && (

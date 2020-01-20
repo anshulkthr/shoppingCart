@@ -2,7 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
+import Sort from '../Shelf/Sort';
 
 export default (props) => (
-    <div className="topHeader"><FontAwesomeIcon icon={faStar} /></div>
+    <div className="topHeader"><a href="/"><FontAwesomeIcon icon={faStar} /></a><Sort/></div>
 );

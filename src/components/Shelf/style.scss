@@ -1,7 +1,7 @@
 .shelf-container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 85%;
   min-height: 600px;
 
   &-header {
@@ -49,6 +49,7 @@
 
       .shelf-item__buy-btn {
         background-color: #eabf00;
+        border-radius: 28px;
       }
     }
 
@@ -107,6 +108,7 @@
       padding: 15px 0;
       margin-top: 10px;
       cursor: pointer;
+      border-radius: 28px;
       // border-bottom: 2px solid #151419;
 
       transition: background-color 0.2s;

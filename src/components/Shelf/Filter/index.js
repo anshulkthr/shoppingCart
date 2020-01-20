@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { updateFilters } from '../../../services/filters/actions';
 import Checkbox from '../../Checkbox';
-import GithubStarButton from '../../github/StarButton';
-
 import './style.scss';
 
-const availablePrices = ['150', '200', '250', '290', '320', '350', '500', '700'];
+const availablePrices = [100, 200, 300, 400, 500, 600, 700, 800];
 
 class Filter extends Component {
-  static propTypes = {
-    updateFilters: PropTypes.func.isRequired,
-    filters: PropTypes.array
-  };
-
   componentDidMount() {
     this.selectedCheckboxes = new Set();
   }
@@ -26,7 +18,7 @@ class Filter extends Component {
     } else {
       this.selectedCheckboxes.add(label);
     }
-
+    console.log(this.selectedCheckboxes);
     this.props.updateFilters(Array.from(this.selectedCheckboxes));
   };
 
@@ -46,11 +38,11 @@ class Filter extends Component {
       <div className="filters">
         <h4 className="title">Price:</h4>
         {this.createCheckboxes()}
-        <GithubStarButton />
       </div>
     );
   }
 }
+
 
 export default connect(
   null,

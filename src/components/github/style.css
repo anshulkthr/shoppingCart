@@ -3,6 +3,9 @@
   background: blue;
   padding: 14px;
   width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 11;
 }
 
 .topHeader svg{
@@ -12,4 +15,15 @@
 
 .topHeader path{
   fill: #eabf00;
+}
+
+.topHeader .sort{
+  right: 100px;
+  position: absolute;
+  top: 18px;
+}
+
+.topHeader .sort label{
+  color: #fff;
+  margin-right: 10px;
 }
