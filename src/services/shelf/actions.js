@@ -21,13 +21,9 @@ export const fetchProducts = (filters, sortBy, callback) => dispatch => {
     .get(productsAPI)
     .then(res => {
       let products = res.data;
-      console.log('fetch'+filters.length);
+      let lastFilterVal = filters[filters.length - 1];
       if (!!filters && filters.length > 0) {
-          console.log('fetch123');
-        products = products.filter(p =>
-          filters.find(f => f >= p.price)
-        );
-
+        products = products.filter(p => lastFilterVal >= p.price);
       }
 
       if (!!sortBy) {

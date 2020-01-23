@@ -27,7 +27,6 @@ const Product = ({ product, addProduct }) => {
         <div className="val">
           <small>Rs</small>
           <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
-          <span>{formattedPrice.substr(formattedPrice.length - 3, 3)}</span>
         </div>
       </div>
       <div className="shelf-item__buy-btn">Add to cart</div>

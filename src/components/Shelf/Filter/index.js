@@ -1,44 +1,58 @@
 import React, { Component } from 'react';
-
 import { connect } from 'react-redux';
 import { updateFilters } from '../../../services/filters/actions';
-import Checkbox from '../../Checkbox';
 import './style.scss';
-
-const availablePrices = [100, 200, 300, 400, 500, 600, 700, 800];
+import Slider from 'react-rangeslider'
+import 'react-rangeslider/lib/index.css';
 
 class Filter extends Component {
-  componentDidMount() {
-    this.selectedCheckboxes = new Set();
-  }
 
-  toggleCheckbox = label => {
-    if (this.selectedCheckboxes.has(label)) {
-      this.selectedCheckboxes.delete(label);
-    } else {
-      this.selectedCheckboxes.add(label);
+    constructor(props) {
+      super(props);
+
+      this.state = {
+          value: 0
+      }
     }
-    console.log(this.selectedCheckboxes);
-    this.props.updateFilters(Array.from(this.selectedCheckboxes));
-  };
 
-  createCheckbox = label => (
-    <Checkbox
-      classes="filters-available-size"
-      label={label}
-      handleCheckboxChange={this.toggleCheckbox}
-      key={label}
-    />
-  );
+    componentDidMount() {
+        this.selectedCheckboxes = new Set();
+    }
 
-  createCheckboxes = () => availablePrices.map(this.createCheckbox);
+    toggleCheckbox = value => {
+        this.setState({
+          value: value
+        })
+
+        if (this.selectedCheckboxes.has(value)) {
+          this.selectedCheckboxes.delete(value);
+        } else {
+          this.selectedCheckboxes.add(value);
+        }
+        this.props.updateFilters(Array.from(this.selectedCheckboxes));
+    };
+
 
   render() {
+    const horizontalLabels = {
+      0: 'Low(0)',
+      1000: 'High(1000)'
+    }
+    const { value } = this.state;
     return (
-      <div className="filters">
+        <div className="filters">
         <h4 className="title">Price:</h4>
-        {this.createCheckboxes()}
-      </div>
+            <div className='slider'>
+              <Slider
+                  min={0}
+                  max={1000}
+                  labels={horizontalLabels}
+                  value={value}
+                  onChange={this.toggleCheckbox}
+              />
+                <div className='rangeValueFilter'>{value}</div>
+            </div>
+        </div>
     );
   }
 }
