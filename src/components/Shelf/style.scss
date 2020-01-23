@@ -34,6 +34,25 @@
     }
   }
 
+  .originalPrice{
+    display: inline-block;
+    font-size: 10px;
+    color: grey;
+    margin-left: 6px;
+
+    span.percentOff {
+      margin-left: 10px;
+      color: green;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+
+  .discountedPrice{
+    display: inline-block;
+  }
+
+
   .shelf-item {
     width: 25%;
     position: relative;

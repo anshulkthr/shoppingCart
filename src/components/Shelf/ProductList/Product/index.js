@@ -24,10 +24,27 @@ const Product = ({ product, addProduct }) => {
       />
       <p className="shelf-item__title">{product.name}</p>
       <div className="shelf-item__price">
-        <div className="val">
-          <small>Rs</small>
-          <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
-        </div>
+          {product.discount > 0 ? (
+            <div className="prodPrice">
+              <div className="val discountedPrice">
+                <small>Rs</small>
+                <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
+              </div>
+              <div className="val originalPrice">
+                <strike>
+                  <small>Rs</small>
+                  <b>{(product.price/((100 - product.discount)/100)).toFixed(0)}</b>
+                </strike>
+                <span className="percentOff">{product.discount}% off</span>
+              </div>
+            </div>
+            ) : (
+            <div className="val discountedPrice">
+              <small>Rs</small>
+              <b>{formattedPrice.substr(0, formattedPrice.length - 3)}</b>
+            </div>
+            )
+            }
       </div>
       <div className="shelf-item__buy-btn">Add to cart</div>
     </div>

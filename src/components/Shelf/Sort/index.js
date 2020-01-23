@@ -8,7 +8,8 @@ import Selectbox from '../../Selectbox';
 const sortBy = [
   { value: '', label: 'Select' },
   { value: 'lowestprice', label: 'Lowest to highest' },
-  { value: 'highestprice', label: 'Highest to lowest' }
+  { value: 'highestprice', label: 'Highest to lowest' },
+    {value: 'discount', label: 'Discount'}
 ];
 
 const Sort = ({ updateSort, sort }) => (

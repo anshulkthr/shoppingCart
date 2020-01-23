@@ -35,8 +35,8 @@ class Filter extends Component {
 
   render() {
     const horizontalLabels = {
-      0: 'Low(0)',
-      1000: 'High(1000)'
+      0: '0',
+      1000: '1000'
     }
     const { value } = this.state;
     return (
