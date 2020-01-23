@@ -14,8 +14,43 @@
       margin-top: 8px;
     }
 
+
     .sort {
-      float: right;
+      float: left;
+      position: relative;
+      width: 65%;
+      display: inline-block;
+
+      label{
+        float: left;
+        position: absolute;
+        top: 6px;
+        left: 20px;
+      }
+      .sortFilter{
+        list-style: none;
+        position: absolute;
+        top: -9px;
+        left: 50px;
+        margin-right: 25px;
+        li{
+          display: inline-block;
+          float: left;
+          margin-right: 25px;
+          a{
+            color: #3d3d3d;
+            &:active{
+              color: blue;
+            }
+            &:focus{
+              color: blue;
+            }
+            &:visited{
+              color: blue;
+            }
+          }
+        }
+      }
 
       select {
         background-color: #fff;

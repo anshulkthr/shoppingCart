@@ -3,19 +3,16 @@ import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { updateSort } from '../../../services/sort/actions';
-import Selectbox from '../../Selectbox';
-
-const sortBy = [
-  { value: '', label: 'Select' },
-  { value: 'lowestprice', label: 'Lowest to highest' },
-  { value: 'highestprice', label: 'Highest to lowest' },
-    {value: 'discount', label: 'Discount'}
-];
 
 const Sort = ({ updateSort, sort }) => (
   <div className="sort">
-    <label>Sort By</label>
-    <Selectbox options={sortBy} handleOnChange={value => updateSort(value)} />
+    <label>Sort By:</label>
+      <ul className="sortFilter">
+          <li><a href="javascript:void(0);" onClick={() => updateSort('')}>Default</a></li>
+          <li><a href="javascript:void(0);" onClick={() => updateSort('lowestprice')}>Lowest to highest</a></li>
+          <li><a href="javascript:void(0);" onClick={() => updateSort('highestprice')}>Highest to lowest</a></li>
+          <li><a href="javascript:void(0);" onClick={() => updateSort('discount')}>Discount</a></li>
+      </ul>
   </div>
 );
 

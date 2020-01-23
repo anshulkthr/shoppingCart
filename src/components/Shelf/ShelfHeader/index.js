@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Sort from '../Sort';
 
 const ShelfHeader = props => {
   return (
@@ -7,6 +8,7 @@ const ShelfHeader = props => {
       <small className="products-found">
         <span>{props.productsLength} Product(s) found.</span>
       </small>
+    <Sort />
     </div>
   );
 };

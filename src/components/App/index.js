@@ -10,8 +10,8 @@ const App = () => (
     <main>
       <Filter/>
       <Shelf />
-      <FloatCart />
     </main>
+    <FloatCart />
   </React.Fragment>
 );
 
