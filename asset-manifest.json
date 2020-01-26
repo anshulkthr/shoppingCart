@@ -1,16 +1,26 @@
 {
-  "main.css": "/shoppingCart/static/css/main.6bea4891.chunk.css",
-  "main.js": "/shoppingCart/static/js/main.c62a1810.chunk.js",
-  "main.js.map": "/shoppingCart/static/js/main.c62a1810.chunk.js.map",
-  "static/css/1.aca9c554.chunk.css": "/shoppingCart/static/css/1.aca9c554.chunk.css",
-  "static/js/1.c9d1bbb4.chunk.js": "/shoppingCart/static/js/1.c9d1bbb4.chunk.js",
-  "static/js/1.c9d1bbb4.chunk.js.map": "/shoppingCart/static/js/1.c9d1bbb4.chunk.js.map",
-  "runtime~main.js": "/shoppingCart/static/js/runtime~main.35890cc8.js",
-  "runtime~main.js.map": "/shoppingCart/static/js/runtime~main.35890cc8.js.map",
-  "static/css/main.6bea4891.chunk.css.map": "/shoppingCart/static/css/main.6bea4891.chunk.css.map",
-  "static/media/style.scss": "/shoppingCart/static/media/instagram-icon.7d65a2ea.png",
-  "static/css/1.aca9c554.chunk.css.map": "/shoppingCart/static/css/1.aca9c554.chunk.css.map",
-  "index.html": "/shoppingCart/index.html",
-  "precache-manifest.0ef12bc02e99b2c41235923ff389467e.js": "/shoppingCart/precache-manifest.0ef12bc02e99b2c41235923ff389467e.js",
-  "service-worker.js": "/shoppingCart/service-worker.js"
+  "files": {
+    "main.css": "/shoppingCart/static/css/main.9cf7d10a.chunk.css",
+    "main.js": "/shoppingCart/static/js/main.245748da.chunk.js",
+    "main.js.map": "/shoppingCart/static/js/main.245748da.chunk.js.map",
+    "runtime-main.js": "/shoppingCart/static/js/runtime-main.38bfcc13.js",
+    "runtime-main.js.map": "/shoppingCart/static/js/runtime-main.38bfcc13.js.map",
+    "static/css/2.b8d7bdcb.chunk.css": "/shoppingCart/static/css/2.b8d7bdcb.chunk.css",
+    "static/js/2.211ecbcf.chunk.js": "/shoppingCart/static/js/2.211ecbcf.chunk.js",
+    "static/js/2.211ecbcf.chunk.js.map": "/shoppingCart/static/js/2.211ecbcf.chunk.js.map",
+    "index.html": "/shoppingCart/index.html",
+    "precache-manifest.c07565f75151b2f77da11b291cf60dc4.js": "/shoppingCart/precache-manifest.c07565f75151b2f77da11b291cf60dc4.js",
+    "service-worker.js": "/shoppingCart/service-worker.js",
+    "static/css/2.b8d7bdcb.chunk.css.map": "/shoppingCart/static/css/2.b8d7bdcb.chunk.css.map",
+    "static/css/main.9cf7d10a.chunk.css.map": "/shoppingCart/static/css/main.9cf7d10a.chunk.css.map",
+    "static/js/2.211ecbcf.chunk.js.LICENSE": "/shoppingCart/static/js/2.211ecbcf.chunk.js.LICENSE",
+    "static/media/style.scss": "/shoppingCart/static/media/instagram-icon.7d65a2ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38bfcc13.js",
+    "static/css/2.b8d7bdcb.chunk.css",
+    "static/js/2.211ecbcf.chunk.js",
+    "static/css/main.9cf7d10a.chunk.css",
+    "static/js/main.245748da.chunk.js"
+  ]
 }
