@@ -4,5 +4,5 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
 export default (props) => (
-    <div className="topHeader"><a href="/shoppingCart"><FontAwesomeIcon icon={faStar} /></a></div>
+    <div className="topHeader"><a href="/"><FontAwesomeIcon icon={faStar} /></a></div>
 );
