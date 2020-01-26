@@ -15,7 +15,7 @@ ReactDOM.render(
 	  	<Route exact path="/shoppingCart">
 	    	<App />
 	    </Route>
-	    <Route path="/cart">
+	    <Route path="/shoppingCart/cart">
 	    	<Cart />
 	    </Route>
 	  </Router>
