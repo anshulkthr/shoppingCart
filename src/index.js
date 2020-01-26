@@ -11,9 +11,9 @@ import store from './services/store';
 
 ReactDOM.render(
 	<Provider store={store()}>
-	  <Router>
-	  	<Route exact path="/shoppingCart" component={App} />
-	    <Route path="/shoppingCart/cart" component={Cart} />
+	  <Router basename={process.env.PUBLIC_URL}>
+	  	<Route exact path="/" component={App} />
+	    <Route path="/cart" component={Cart} />
 	  </Router>
 	</Provider>,
   document.getElementById('root')
