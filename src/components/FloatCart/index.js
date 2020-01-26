@@ -75,7 +75,7 @@ class FloatCart extends Component {
 
     return (
       <div className="float-cart home">
-        <a href="/shoppingCart/cart">
+        <a href="/cart">
           <span className="bag bag--float-cart-closed">
             <span className="bag__quantity">{cartTotal.productQuantity}</span>
           </span>
