@@ -1,6 +1,6 @@
 {
   "homepage": "http://anshulkthr.github.io/shoppingCart",
-  "name": "react-shopping-cart",
+  "name": "shoppingCart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
