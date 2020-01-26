@@ -13,7 +13,7 @@ ReactDOM.render(
 	<Provider store={store()}>
 	  <Router basename={process.env.PUBLIC_URL}>
 	  	<Route exact path="/" component={App} />
-	    <Route path="/cart" component={Cart} />
+	    <Route exact path="/cart" component={Cart} />
 	  </Router>
 	</Provider>,
   document.getElementById('root')
