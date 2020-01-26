@@ -12,7 +12,7 @@ import store from './services/store';
 ReactDOM.render(
 	<Provider store={store()}>
 	  <Router>
-	  	<Route exact path="/shoppingCart">
+	  	<Route exact path="/">
 	    	<App />
 	    </Route>
 	    <Route path="/shoppingCart/cart">
