@@ -163,6 +163,7 @@
       background: #fff;
       transition: background-color 0.2s, opacity 0.2s;
       box-shadow: 3px 3px 5px 1px #ccc;
+      border: 2px solid #ddd;
 
       &--mouseover {
         background: #d3d3d3;
@@ -272,6 +273,7 @@
     display: inline-block;
     box-shadow: 3px 3px 5px 1px #ccc;
     margin: 0px 25px;
+    border: 2px solid #ddd;
 
     .sub,
     .sub-price {
