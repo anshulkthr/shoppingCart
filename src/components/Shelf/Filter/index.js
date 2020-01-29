@@ -48,7 +48,7 @@ class Filter extends Component {
                     value={this.state.value}
                     onChange={value => this.toggleState(value)} />
                 <button type="button" onClick={this.toggleCheckbox} className="filter-btn">Apply</button>
-                <div className="selected-filter">{`Rs.${value.min}  -  Rs.${value.max}`}</div>
+                <div className="selected-filter label-filter">{`Rs.${value.min}  -  Rs.${value.max}`}</div>
               </form>
             </div>
         </div>
