@@ -27,9 +27,10 @@ export const fetchProducts = (filters, sortBy, callback) => dispatch => {
     .get(productsAPI)
     .then(res => {
       let products = res.data;
-      let lastFilterVal = filters[filters.length - 1];
+      
       if (!!filters && filters.length > 0) {
-        products = products.filter(p => lastFilterVal >= p.price);
+        let lastFilterVal = filters[filters.length - 1];
+        products = products.filter(p => (lastFilterVal.min <= p.price && lastFilterVal.max >= p.price));
       }
 
       if (!!sortBy) {
